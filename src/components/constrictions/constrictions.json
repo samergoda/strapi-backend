@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_constrictions_constrictions",
+  "info": {
+    "displayName": "constrictions"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
