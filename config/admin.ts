@@ -1,20 +1,20 @@
 export default ({ env }) => ({
   auth: {
-    secret: env('ADMIN_JWT_SECRET'),
+    secret: "M2RSI0zJfFm3fO1V+QDBsg==",
   },
   apiToken: {
-    salt: env('API_TOKEN_SALT'),
+    salt: "sthdTIx6ifIy1RCfDLfKtg==",
   },
   transfer: {
     token: {
-      salt: env('TRANSFER_TOKEN_SALT'),
+      salt: "9uDZCmImHbBaXBvyB0l06w==",
     },
   },
   secrets: {
-    encryptionKey: env('ENCRYPTION_KEY'),
+    encryptionKey: "jnw18BgKGI7UHMy3YKvyCA==",
   },
   flags: {
-    nps: env.bool('FLAG_NPS', true),
-    promoteEE: env.bool('FLAG_PROMOTE_EE', true),
+    nps: env.bool("FLAG_NPS", true),
+    promoteEE: env.bool("FLAG_PROMOTE_EE", true),
   },
 });
